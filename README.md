@@ -40,7 +40,7 @@ The configuration details of each machine may be found below.
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the Jump-Box-Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 97.92.94.206
+Only the Jump-Box-Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: Localhost (public IP address)
 
 Machines within the network can only be accessed by 10.0.0.4 (this is the private IP address of Jump-Box-Provisioner).
 
@@ -48,10 +48,10 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses                                                     |
 |----------|---------------------|--------------------------------------------------------------------------|
-| Jump Box | Yes                 | 97.92.94.206 (ssh)                                                       |
+| Jump Box | Yes                 | Localhost (ssh)                                                       |
 | Web-1    | No                  | 10.0.0.4 (ssh)                                                           |
 | Web-2    | No                  | 10.0.0.4 (ssh)                                                           |
-| ELK      | Yes                 | 97.92.94.206 (port 5601), 10.0.0.4 (ssh), 10.0.0.5 (ssh), 10.0.0.6 (ssh) |
+| ELK      | Yes                 | Localhost (port 5601), 10.0.0.4 (ssh), 10.0.0.5 (ssh), 10.0.0.6 (ssh) |
 
 ### Elk Configuration
 
