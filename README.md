@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![ELK Project Diagram](https://github.com/plottsguitar/ELK-Project/Images/ELK Project Diagram.png)
+![ELK Project Diagram](https://github.com/plottsguitar/ELK-Project/blob/main/Images/ELK%20Project%20Diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the filebeat_metricbeat-playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -65,7 +65,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Docker PS Output](https://github.com/plottsguitar/ELK-Project/Images/docker_ps_output.png)
+![Docker PS Output](https://github.com/plottsguitar/ELK-Project/blob/main/Images/docker_ps_output.png)
 
 ### Target Machines & Beats
 
@@ -106,4 +106,3 @@ Below is a list of commands that will need to be run to effectively utilize this
  - ansible-playbook /etc/ansible/filebeat_metricbeat-playbook.yml
  - curl http://10.1.0.4:5601/app/kibana (private IP used to display curl output onto Jump-Box-Provisioner machine)
  - http://40.77.60.156:5601/app/kibana (from web browser)
- - 
