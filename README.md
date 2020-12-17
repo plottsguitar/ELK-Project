@@ -99,9 +99,9 @@ SSH into the control node and follow the steps below:
 Below is a list of commands that will need to be run to effectively utilize this setup of ELK.
 
  - curl (yml files from Github)
-  .- Web Servers Playbook: curl https://github.com/plottsguitar/ELK-Project/blob/main/Ansible/playbook1.yml
-  .- ELK Playbook: curl https://github.com/plottsguitar/ELK-Project/blob/main/Ansible/install_elk.yml
-  .- Filebeat/Metricbeat Playbook: curl https://github.com/plottsguitar/ELK-Project/blob/main/Ansible/filebeat_metricbeat-playbook.yml
+    - Web Servers Playbook: curl https://github.com/plottsguitar/ELK-Project/blob/main/Ansible/playbook1.yml
+    - ELK Playbook: curl https://github.com/plottsguitar/ELK-Project/blob/main/Ansible/install_elk.yml
+    - Filebeat/Metricbeat Playbook: curl https://github.com/plottsguitar/ELK-Project/blob/main/Ansible/filebeat_metricbeat-playbook.yml
  - mkdir /etc/ansible/files
  - nano /etc/ansible/hosts (edit IP addresses for "webservers" and "elk" groups, include ansible_python_interpreter=/ussr/bin/python3 for each IP address)
  - ansible-playbook /etc/ansible/playbook1.yml
