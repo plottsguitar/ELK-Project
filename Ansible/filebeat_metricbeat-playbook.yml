@@ -43,4 +43,4 @@
       command: service filebeat start
 
     - name: Start Metricbeat
-      command: metricbeat -e
+      command: service metricbeat start
